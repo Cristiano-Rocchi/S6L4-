@@ -39,7 +39,18 @@ $custom-theme-colors: (
   "epicode-1": #5726c3,
   "epicode-2": #8625a5,
   "epicode-3": #cb2376
-    // qui posso usare delle variabili per le mappe, perché le variabili sono state già importate sopra.,
+    // qui posso usare delle variabili per le mappe, perché le variabili sono state già importate sopra.,,,
+);
+
+$add-grid-breakpoints: (3-xl: 1600px, 4-xl: 1800px);
+$grid-breakpoints: map-merge($grid-breakpoints, $add-grid-breakpoints);
+$new-container-max-widths: (
+  3xl: 1520px,
+  4xl: 1720px,
+);
+$container-max-widths: map-merge(
+  $container-max-widths,
+  $new-container-max-widths
 );
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
