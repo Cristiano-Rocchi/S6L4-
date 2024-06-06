@@ -5,9 +5,13 @@
 $input-btn-padding-x: 2.5rem;
 $input-btn-padding-y: 0.5rem;
 $grid-gutter-width: 0.5rem;
+
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/variables-dark";
 /* override di mappe */
+$card-color: $info;
+$card-bg: $dark;
+$card-border-radius: 2rem;
 $custom-font-size: (
   7: 0.9rem,
   8: 0.8rem,
