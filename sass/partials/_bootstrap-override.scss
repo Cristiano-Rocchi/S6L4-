@@ -38,8 +38,7 @@ $border-widths: map-merge($border-widths, $custom-border-width);
 $custom-theme-colors: (
   "epicode-1": #5726c3,
   "epicode-2": #8625a5,
-  "epicode-3": #cb2376
-    // qui posso usare delle variabili per le mappe, perché le variabili sono state già importate sopra.,,,
+  "epicode-3": #cb2376,
 );
 
 $add-grid-breakpoints: (3-xl: 1600px, 4-xl: 1800px);
