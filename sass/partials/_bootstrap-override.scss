@@ -14,6 +14,15 @@ $custom-font-size: (
 );
 
 $font-sizes: map-merge($font-sizes, $custom-font-size);
+
+$custom-border-width: (
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10: 10px,
+);
+$border-widths: map-merge($border-widths, $custom-border-width);
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
 @import "../../bootstrap/scss/utilities";
